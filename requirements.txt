@@ -1,0 +1,7 @@
+PyAudio==0.2.7
+Pyrex==0.9.9
+numpy==1.7.0
+pappy==0.91
+pygsr==0.1
+pyttsx==1.1
+wsgiref==0.1.2
