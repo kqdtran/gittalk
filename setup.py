@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='gittalk',
@@ -6,9 +6,13 @@ setup(
     url='https://github.com/kqdtran/gittalk',
     author='Khoa Tran',
     author_email='khoatran@berkeley.edu',
+    keywords=('git', 'audio', 'gittalk'),
     description=('talk with git'),
     license='MIT',
     packages=['gittalk'],
+    install_requires=[
+        'pyttsx>=1.1',
+    ],
     scripts=[
         'bin/gittalk'
     ],
