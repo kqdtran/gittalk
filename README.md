@@ -10,8 +10,14 @@ for you?
 
 `pip install gittalk`     
 
-`python setup.py install` should also be just fine, in case you don't 
-have Pip installed.
+Or, from Github:
+
+```bash
+git clone https://github.com/kqdtran/gittalk.git     
+python setup.py install 
+```
+
+This should also be just fine, in case you don't have Pip installed.
 
 ## Dependencies
 
