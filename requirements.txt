@@ -2,7 +2,6 @@ PyAudio==0.2.7
 Pyrex==0.9.9
 gittalk==0.1.0
 nose==1.3.0
-numpy==1.7.0
 pappy==0.91
 pep8==1.4.6
 pygsr==0.1

@@ -6,18 +6,20 @@ Instead of yelling to your teammates and letting them aware of the
 changes, wouldn't it be cool to have the computer say it out loud 
 for you?   
 
+## Changelog
+* 11/22/2013 (v0.1.0): Initial version that works for commit message only    
+
 ## Installation
 
-`pip install gittalk`     
+`$ pip install gittalk`     
 
-Or, from Github:
+Or, to install from source:
 
 ```bash
-git clone https://github.com/kqdtran/gittalk.git     
-python setup.py install 
+$ git clone https://github.com/kqdtran/gittalk.git   
+$ cd gittalk
+$ python setup.py install 
 ```
-
-This should also be just fine, in case you don't have Pip installed.
 
 ## Dependencies
 
@@ -34,14 +36,16 @@ Pyttsx will also install its own dependencies.
 Most likely, the installation for pyttsx failed. Check out 
 https://github.com/parente/pyttsx and see if any previously raised 
 issues there are helpful. Unfortunately, I've only tested this on 
-Ubuntu 12.10 32-bit, so it might not work as expected on Windows/OSX...   
+Ubuntu 12.10 32-bit, so it might not work as expected on Windows/OSX...  
+
+Please let me know of any other errors you might run into, thanks!  
 
 ## Features and Usage
 
 * Make a git commit as usual. Then type `gittalk` on the terminal. The 
 last commit message should be said out loud. :D
 
-* ... More to come! (see `say_last_push` in `gittalk/core.py` for example)
+* ... More to come!
 
 ## Notes
 This is still pretty basic, and is mostly my attempt at playing with 
